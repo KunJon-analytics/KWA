@@ -24,13 +24,7 @@ async function WeatherComponent({ city }: { city: CityData }) {
         </span>
       </div>
       <div className="justify-self-end">
-        <Image
-          src={iconUrl}
-          width={50}
-          height={50}
-          alt="Weather
-Icon"
-        />
+        <Image src={iconUrl} width={50} height={50} alt="Weather Icon" />
         <div className="text-white text-sm">
           {weather.weather[0].description}
         </div>
